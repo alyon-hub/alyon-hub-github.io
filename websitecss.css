@@ -21,7 +21,7 @@ html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+}
 @media only screen and (max-width:749px) {
   .parallax {
     background-attachment: inherit;
