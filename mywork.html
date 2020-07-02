@@ -14,7 +14,7 @@ My Portfolio
 <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
 <link rel="manifest" href="favicon_io/site.webmanifest">
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
@@ -63,46 +63,37 @@ Here are a few recent examples of my digital artwork:
 </div>
 <div class="row">
 
-<div class="column">
-<div class="gallery">
+<div class="col-md-12">
+<div class="w3-content w3-display-container">
 
-<a target="_blank" href="images/image_1.jpg">
-<img src="images/image_1.jpg" alt="Poster Artwork">
-</a>
- <div class="desc">Personal Poster Artwork</div>
- </div>
- </div>
- 
-
-<div class="column">
-<div class="gallery">
-
-<a target="_blank" href="images/image_2.jpg">
-<img src="images/image_2.jpg" alt="Group Scene">
-</a>
-<div class="desc">Multiple Character Scene</div>
-</div>
-</div>
-
-
-<div class="column">
-<div class="gallery">
-
-<a target="_blank" href="images/image_3.jpg">
-<img src="images/image_3.jpg" alt="Original Character">
-</a>
-<div class="desc">Original Character</div>
-</div>
-</div>
+<a href= "images/image_1.jpg" target="_blank"><img class="mySlides" src="images/image_1.jpg" style="width:100%"></a>
+<a href= "images/image_2.jpg" target="_blank"><img class="mySlides" src="images/image_2.jpg" style="width:100%"></a>
+<a href= "images/image_3.jpg" target="_blank"><img class="mySlides" src="images/image_3.jpg" style="width:100%"></a>
+<a href= "images/image_4.jpg" target="_blank"><img class="mySlides" src="images/image_4.jpg" style="width:100%"></a>
   
-<div class="column">
-<div class="gallery">
-
-<a target="_blank" href="images/image_4.jpg">
-<img src="images/image_4.jpg" alt="Thermite from R6">
-</a>
-<div class="desc">Character from Rainbow Sixe Siege</div>
+<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+</script>
 </div>
 
 </div>
