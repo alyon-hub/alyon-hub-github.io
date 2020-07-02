@@ -42,7 +42,7 @@ body{
 
 .jumbotron {
 	background-color: white;
-	padding-left: 20px;
+	padding: 20px;
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 0 !important;
 	border: 0 !important;
@@ -50,6 +50,12 @@ body{
 
 h1, h2, h3 {
 	font-family: 'Montserrat', sans-serif;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 20px;
 }
 nav {
 	padding: 10px;
@@ -114,7 +120,7 @@ ul {
 	
 	fullwidth {
 	grid-column: 1/4;
-	justify-self: start;
+	justify-self: stretch;
 }
 
 	}
