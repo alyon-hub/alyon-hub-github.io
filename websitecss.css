@@ -23,7 +23,7 @@ html {
 	background-size: cover;
 }
 
-@media only screen and (max-width:749px) {
+@media only screen and (max-width:480px) {
   .parallax {
     background-attachment: scroll;
      background-size: 100% 100%;
@@ -59,7 +59,7 @@ nav {
 	padding: 10px;
 	background-color: #3b3a30;
 	
-	@media (min-width: 800px){
+	@media (max-width: 480px){
 		padding: 20px;
 	}
 }
