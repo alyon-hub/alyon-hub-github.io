@@ -6,6 +6,15 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 .parallax {
     margin-top: 0 !important;
     background-image: url("images/background_1.jpeg");
@@ -14,15 +23,6 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-body {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
-}
-*, *: : before, *: : after {
-    box-sizing: inherit;
 }
 
 .jumbotron {
