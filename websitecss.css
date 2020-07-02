@@ -26,7 +26,6 @@ html {
 @media only screen and (max-width:700px) {
   .parallax {
     background-attachment: scroll;
-     background-size: 100% 100%;
    }
    
    ul {
