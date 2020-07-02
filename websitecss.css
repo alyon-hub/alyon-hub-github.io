@@ -14,6 +14,9 @@ html {
 	background-color: white;
 }
 
+.form {
+}
+
 .parallax {
 	margin-top: 0!important;
 	background-image: url("images/background_1.jpeg");
@@ -27,7 +30,7 @@ html {
 @media only screen and (max-width:749px) {
   .parallax {
     background-attachment: local;
-	min-height: 200px; 
+	min-height: 150px; 
    }
 }
 
@@ -139,7 +142,7 @@ ul {
 	grid-template-columns: repeat(4, 80px);
 	grid-gap: 10px;
 	justify-content: center;
-	justify-items: left;	
+	justify-items: center;	
 	}
 	
 	fullwidth {
@@ -169,11 +172,12 @@ fullwidth {
 }
 
 input[type=text], select {
-  margin: 8px 0;
+  margin: 5px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  width: 100%;
 }
 
 input[type=submit] {
