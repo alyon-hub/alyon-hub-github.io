@@ -60,7 +60,7 @@ nav {
 	background-color: #3b3a30;
 	
 	@media (max-width: 480px){
-		padding: 20px;
+		padding: 5px;
 	}
 }
 
