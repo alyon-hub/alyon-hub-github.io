@@ -177,6 +177,10 @@ fullwidth {
   width: 50px;
   text-align: center;
 }
+
+.fa-wrench,.fa-paint-brush {
+	padding-right: 10px;
+}
 .icons:hover {
 	text-decoration: none!important;
 }
