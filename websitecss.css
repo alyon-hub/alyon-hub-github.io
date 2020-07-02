@@ -30,7 +30,7 @@ html {
    }
    
    ul {
-	grid-template-columns: repeat(4, 100px)!important;
+	grid-template-columns: repeat(4, 50px)!important;
    }
 }
 
