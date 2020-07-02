@@ -110,7 +110,13 @@ ul {
 	grid-gap: 10px;
 	justify-content: center;
 	justify-items: left;	
-		}
+	}
+	
+	fullwidth {
+	grid-column: 1/4;
+	justify-self: start;
+}
+
 	}
 
 
