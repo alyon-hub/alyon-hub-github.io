@@ -15,6 +15,23 @@ body {
     box-sizing: inherit;
 }
 
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 35px;
+}
+h2 {
+    font-size: 20px;
+	color: #E35353;
+}
+
+h3 {
+	font-size: 20px;
+	color: #E35353;
+}
+
 .container {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -33,27 +50,27 @@ body {
     background-size: cover;
 }
 
-header {
-    background-color: #FFFFFF!important;
-	padding-left: 40px!important;
+.jumbotron {
+    background-color: #FFFFFF;
+	padding-left: 40px;
     margin-bottom: 0;
 	margin-top: 0;
     border: 0;
-	display: inline;
-}
-	
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif !important;
-}
-h1 {
-    font-size: 40px !important;
-}
-h2 {
-    font-size: 20px !important;
 }
 
-h3 {
-	font-size: 20px!important;
+footer a:hover {
+	color: white;
+}
+
+nav a, a:visited, a:active {
+    position: relative;
+    text-decoration: none;
+    color: #E35353;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: black;
 }
 
 .column {
@@ -67,7 +84,7 @@ h3 {
     display: table;
 }
 .points {
-	color: #F08080;
+	color: #E35353;
     padding-left: 0px;
     padding-right: 10px;
     padding-bottom: 20px;
@@ -75,21 +92,6 @@ h3 {
 }
 .icons {
 	padding: 5px;
-}
-
-a.icons:hover {
-	color: white;
-}
-
-.style a, a:visited, a:active {
-    position: relative;
-    text-decoration: none;
-    color: #F08080;
-}
-
-.style a:hover {
-	text-decoration: none;
-	color: black!important;
 }
 
 
@@ -128,25 +130,28 @@ ul {
 .iconList {
     padding-right: 20px;
     font-size: 25px;
-	color: black!important;
+	color: black;
 }
 .listSocial {
     list-style-type: none;
     display: block;
 }
 
-
+.fa-laptop-code, .fa-palette {
+	color: #E35353;
+}
 
 .fa-github, .fa-linkedin, .fa-envelope {
     text-align: center;
-    
+	color: #F08080;
 }
 .fa-phone-alt {
 	padding-left: 20px;
 	font-size: 20px;
 }
-.fa-wrench, .fa-paint-brush, .fa-phone-alt {
+.fa-wrench, .fa-paint-brush {
     padding-right: 10px;
+	color: #E35353;
 }
 
 .footer {
@@ -210,7 +215,7 @@ input[type=submit]:hover {
         justify-items: center;
     }
     .w3-content {
-        width: 80%!important;
+        width: 80%;
     }
 	
 	.column {
