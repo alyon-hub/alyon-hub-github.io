@@ -54,7 +54,7 @@ nav {
 	
 }
 
-nav ul {
+ul {
     list-style-type: none;
 	display: inline;
     margin: 0;
@@ -128,6 +128,7 @@ nav ul {
 }
 
 .list {
+	list-style-type: square;
     display: block;
     padding-left: 20px;
 }
@@ -211,10 +212,13 @@ input[type=submit]:hover {
         justify-content: center;
         justify-items: center;
     }
+	
+	h3 {
+		padding-left: 20px;
+	}
     .w3-content {
         width: 80%;
     }
-	
 	.column {
         width: 100%;
     }
