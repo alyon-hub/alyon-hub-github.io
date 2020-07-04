@@ -7,8 +7,10 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link rel="stylesheet" href="websitecss.css"/>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
       <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
@@ -17,7 +19,7 @@
    </head>
    <body>
 
-      <nav class="style">
+      <nav>
          <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -54,18 +56,51 @@
                </p>
             </div>
          </div>
+		 <div class="row">
+
+<div class="col-md-12">
+<div class="w3-content w3-display-container">
+
+<img class="mySlides" src="images/image_1.jpg" style="width:100%">
+<img class="mySlides" src="images/image_2.jpg" style="width:100%">
+<img class="mySlides" src="images/image_3.jpg" style="width:100%">
+<img class="mySlides" src="images/image_4.jpg" style="width:100%">
+<img class="mySlides" src="images/image_5.jpg" style="width:100%">
+  
+<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+</script>
             </div>
          </div>
       </div>
       </div>
       <div class="parallax"></div>
-	  <footer>
       <div class="footer text-center py-3">
          <p>Contact Me!</p>
          <a class="icons" href="https://github.com/alyon-hub" target="_blank"><i class="fab fa-github fa-lg"></i></a>
          <a class="icons" href="https://www.linkedin.com/in/avriel-lyon/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+		 <a class="icons" href="mailto:avriellyon@gmail.com" target="_blank"><i class="fas fa-envelope fa-lg"></i></a>
       </div>
-	  </footer>
    </body>
 </html>
 </html>
