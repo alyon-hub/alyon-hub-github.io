@@ -225,10 +225,6 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 749px) {
-    .parallax {
-        background-attachment: local;
-        min-height: 150px;
-    }
 	    ul {
         list-style-type: none;
         margin: 0;
@@ -250,4 +246,26 @@ input[type=submit]:hover {
 	.column {
         width: 100%;
     }
+	
+	.parallax {
+    background-image: url("images/background_1.jpeg");
+	min-height: 150px;
+
+}
+	.parallax2 {
+
+    background-image: url("images/background_2.jpg");
+	min-height: 150px;
+
+}
+	.parallax3 {
+    background-image: url("images/background_3.jpg");
+	min-height: 150px;
+
+}
+	.parallax4 {
+    background-image: url("images/background_4.jpg");
+	min-height: 150px;
+
+}
 }
